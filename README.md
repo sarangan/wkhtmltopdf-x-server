@@ -40,3 +40,7 @@ Starting virtual X frame buffer: Xvfb.
 
 check process 
 ps auxU www-data | grep [X]vfb
+
+
+if these steps does not work then alter the command to 
+xvfb-run /usr/bin/wkhtmltopdf http://www.google.com google.pdf
