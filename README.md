@@ -3,7 +3,7 @@
 `vi /etc/init.d/xvfb`
 
 ###----------------------include this script ------------------------
-```XVFB=/usr/bin/Xvfb
+``` XVFB=/usr/bin/Xvfb
 XVFBARGS=":1 -screen 0 1024x768x24 -ac +extension GLX +render -noreset"
 PIDFILE=/var/run/xvfb.pid
 case "$1" in
@@ -26,7 +26,7 @@ case "$1" in
         exit 1
 esac
 
-exit 0```
+exit 0 ```
 ------------------------------------------------
 ###make it executable 
 `chmod +x /etc/init.d/xvfb`
